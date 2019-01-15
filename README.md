@@ -2,6 +2,7 @@
 	listar todos los PRs de un repo
 
 	caracteristicas para que el PR sea sujeto de análisis:
+	    que haya sido revisado y no mergeado directamente
 		que el repo activity sea mayor que N
 			* repo activity: media de latency de N PRs closed en N días previos
 		diff menor que 2000 y mayor que 0
