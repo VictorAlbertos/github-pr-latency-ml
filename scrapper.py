@@ -1,5 +1,5 @@
 import pandas as pd
-from constants import cols_pull_request, repositories, raw_data_path, diff_folder, repo_coll
+from constants import cols_pull_request, repositories, raw_data_path
 from credentials import token
 
 import requests

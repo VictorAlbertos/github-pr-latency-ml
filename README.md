@@ -16,3 +16,9 @@
 # Neuronal network
 	X: diff, repo_activity
 	y: latency
+
+
+DEA
+    grafico temporal que muestre el valor de occurrences_nearest_coll (para mostrar que el pace no es uniforme)
+    check for uotliers regarding mean latency
+    perform analysis correlations

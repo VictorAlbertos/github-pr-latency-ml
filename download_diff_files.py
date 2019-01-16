@@ -1,5 +1,5 @@
 import urllib.request
-from constants import diff_folder, diff_file_url
+from constants import diff_folder, diff_file_url_coll
 from urllib.parse import urlparse
 import pandas as pd
 from constants import raw_data_path
@@ -22,12 +22,12 @@ df = pd.read_csv(raw_data_path)
 urls_files_to_download = []
 
 for index, row in df.iterrows():
-    diff_url = row[diff_file_url]
+    diff_url = row[diff_file_url_coll]
     file = Path(diff_path(diff_url))
     if file.is_file():
         continue
     else:
-        urls_files_to_download.append(row[diff_file_url])
+        urls_files_to_download.append(row[diff_file_url_coll])
 
 print(f'{len(urls_files_to_download)} files to download')
 
