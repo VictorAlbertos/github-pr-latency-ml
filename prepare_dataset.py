@@ -94,6 +94,4 @@ convert_dates_to_latency_in_minutes(df)
 
 calculate_mean_latency_and_occurrences_nearest_pull_requests(df)
 
-df = df[df[pull_requests_neighbours_count_coll] > days_back_mean_latency / 7]
-
 df.to_csv(dataset_path, index=False)
