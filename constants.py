@@ -31,4 +31,5 @@ repositories = [('twbs', 'bootstrap', 'js'), ('nodejs', 'node', 'js'), ('faceboo
 
 diff_folder = "raw/diff"
 raw_data_path = "raw/data.csv"
-dataset_path = "dataset.csv"
+dataset_path = "datasets/data.csv"
+dataset_EDA_path = "datasets/data_EDA.csv"
